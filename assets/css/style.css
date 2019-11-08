@@ -5,6 +5,34 @@
   font-weight: 400;
 }
 
+@font-face {
+    font-family: "Mija Regular";
+    src: url("../fonts/mija_regular-webfont.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "Elena bold";
+    src: url("../fonts/elenawebbold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "Elena italic";
+    src: url("../fonts/elenawebregularitalic.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "Elena Regular";
+    src: url("../fonts/elenawebregular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+  }
+
 * {
   padding: 0;
   margin: 0;
@@ -19,7 +47,7 @@
 }
 
 .main_header {
-  height: 150px;
+  height: 200px;
   width: 100%;
 }
 
@@ -27,16 +55,14 @@
   display: flex;
   width: 100%;
   height: 100%;
+  padding: 0 50px;
   align-items: center;
   background-color: rgb(155, 155, 154);
   justify-content: space-between;
 }
 
 .logo {
-  height: 3.75em;
-  position: relative;
-  top: 50px;
-  left: 30px;
+
   max-width: 100%;
   box-sizing: border-box;
   color: white;
@@ -55,7 +81,6 @@
 }
 
 .search {
-  margin-right: 45px;
   padding: 5px 15px;
   border: 3px solid white;
   border-radius: 5px;
@@ -69,32 +94,126 @@
 
 .nav_item {
   color: #fff;
-  font-size: 22px;
+  font-size: 30px;
 }
 
-.latest-articles {
-  position: relative;
-  background-color: aqua;
-  display: flex;
-  flex-wrap: wrap;
-  min-height: 20%;
-  box-sizing: border-box;
-  font-family: "Elena", sans-serif;
-  font-size: calc(18px + 0.25vw);
-  color: white;
-  line-height: 1.15;
+.latest_articles {
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
 }
 
-.latest-article {
-  background-color: #bc3428;
+.latest_article {
   font-family: 'Mija', sans-serif;
   width: 33.33%;
   color: #fff;
   position: relative;
   font-weight: 700;
-  padding: 10em 5vw 7em;
+  padding: 10em 5vw 0 5vw;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   line-height: 1.15;
+  height: 100%;
+}
+
+.latest_article_1, .latest_article_3 {
+    background-color: rgb(99, 97, 97);
+}
+
+.latest_article_2 {
+    background-color:rgb(134, 133, 133);
+}
+
+.author_bloc {
+    height: 20%;
+}
+
+.article_bloc {
+    height: 30%;
+}
+
+.tags {
+    height: 30%;
+}
+
+.next_arrow {
+    height: 20%;
+}
+
+.article_tag {
+    list-style: none;
+}
+
+.author_bloc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.author_bloc span {
+    font-size: 22px;
+}
+
+.author_avatar, .author_name, .wrote_text  {
+    height: 90%;
+}
+.author_name{
+    margin: 10px 20px;
+    height: 0;
+}
+.wrote_text {
+    margin: 0;
+    height: 0;
+    font-family: 'Elena italic';
+}
+
+.author_avatar {
+    width: 70px;
+    height: 70px;
+    border: 6px solid #ccc;
+    border-radius: 6px;
+    margin: 10px 0 -20px 30px;
+    transform: rotate(75deg);
+}
+
+.article_title {
+
+    line-height: 1.4;
+    font-size: 2.14857em;
+    text-transform: capitalize;
+
+}
+
+.article_bloc {
+    height: 30%;
+    padding: 20px 20px;
+}
+
+.article_tag {
+    color: #fff;
+    text-transform: capitalize;
+    margin-right: 15px;
+}
+
+.tags {
+    height: 30%;
+    padding: 20px;
+}
+
+.tag_list {
+    display: flex;
+}
+
+
+.next_arrow::before {
+    content: '→';
+    display: block;
+    width: 100px;
+    color: #fff;
+    font-size: 3em;
+    padding: 0;
+    position: absolute;
+    bottom: 1em;
 }
