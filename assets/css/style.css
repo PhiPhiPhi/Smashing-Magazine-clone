@@ -654,3 +654,75 @@ border-radius: 11px;
     width: 50%;
     margin: 0 auto;
 }
+
+footer {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: #666;
+    color: #f2f2f2;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_meta {
+    height: 20%;
+    margin: 80px 0 0;
+    font-family: 'Elena Bold';
+    text-transform: uppercase;
+
+}
+.topic_cloud {
+    height: 30%;
+    width: 85%;
+    text-align: center;
+    margin: 0 0 70px 0;
+}
+.footer_description {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.footer_description_line {
+    font-family: 'Elena Regular';
+    margin: 7px auto;
+}
+
+.footer_nav {
+    text-align: center;
+    margin: 20px 0 100px 0;
+    height: 20%;
+}
+.footer_topic {
+    display: inline-block;
+    list-style-image: url("https://d33wubrfki0l68.cloudfront.net/5242cdc0f8a0d710a02b6dcdd43ef5002bf5ae89/77199/images/bullet.svg");
+    font-family: 'Elena Regular';
+    font-size: 24px;
+    line-height: 40px;
+    height: 30%;
+}
+
+.footer_topic::before {
+    content: '•';
+    margin: 0 .25em 0 .25em;
+    display: inline-block;
+    color: #333;
+    font-size: calc(1em + ((.4vw + .25vh)/ 2));
+    position: relative;
+    top: 2px;
+
+} 
+
+.fdl_italic {
+    font-family: 'Elena italic' ;
+}
+
+.footer_nav_top a, .footer_nav_bottom  a {
+    font-family: 'Elena Regular';
+    font-size: 18px;
+    line-height: 40px;
+    color: white;
+    padding: 0 0 0 10px ;
+}
