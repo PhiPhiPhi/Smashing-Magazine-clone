@@ -244,9 +244,6 @@
 
 }
 
-.latest_post:hover ~ .latest_post {
-    
-}
 
 .latest_post_title {
     color: black;
@@ -562,4 +559,54 @@ border-radius: 11px;
     padding: 20px;
     border-radius: 11px;
     font-size: 30px;
+}
+.curated_posts {
+    height: 780px;
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+.curated_post {
+    width: 25%;
+    padding: 2em 1vw 0 3vw;
+    line-height: 1.15;
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s;
+}
+
+.curated_post:hover {
+    background: white;
+    transform: scale(1.02);
+}
+.curated_post_title {
+    margin: 10px 0 40px 0;
+
+}
+
+.curated_post_list {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.curated_post_item {
+    margin-bottom: .5em;
+    padding-left: .25em;
+    font-family: 'Elena Regular';
+    font-size: 26px;
+    line-height: 30px;
+
+}
+
+.cp_meta {
+    height: 3%;
+    font-size: 1.2em;
+    font-family: Elena;
+    color: #666;
+    display: block;
+    font-feature-settings: 'smcp' 1,'c2sc' 1;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    background-position: center 72%;
 }
