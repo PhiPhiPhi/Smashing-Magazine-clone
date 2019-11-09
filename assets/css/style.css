@@ -395,7 +395,7 @@
 
 }
 
-.latest_posts_footer, .article_posts_footer {
+.latest_posts_footer, .article_posts_footer, .newsletter_footer {
     margin: 90px auto;
 }
 
@@ -609,4 +609,48 @@ border-radius: 11px;
     font-variant: small-caps;
     text-transform: lowercase;
     background-position: center 72%;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #868686;
+    padding: 30px 25% 0;
+    text-align: center;
+}
+
+.smashing_newsletter_bloc {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.smashing_newsletter_title {
+    margin: 0 0 50px 0;
+    font-size: 50px;
+}
+
+.newsletter_footer {
+    text-align: center;
+}
+
+.smashing_newsletter_p {
+    font-family: 'Elena Regular';
+    font-size: 22px;
+    line-height: 40px;
+    height: 30%;
+}
+
+.explore_button_bloc {
+    height: 20%;
+}
+
+.newsletter_signin {
+    font-size: 17px;
+    width: 50%;
+    margin: 0 auto;
 }
