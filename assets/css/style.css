@@ -398,7 +398,7 @@
 
 }
 
-.latest_posts_footer {
+.latest_posts_footer, .article_posts_footer {
     margin: 90px auto;
 }
 
@@ -406,4 +406,114 @@
 background: darkgrey;
 padding: 20px;
 border-radius: 11px;
+}
+
+.people {
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
+}
+
+.person_of_the_week {
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.potw_avatar {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #ccc;
+    border-radius: 6px;
+    margin: 0 0 0px 100px;
+    transform: rotate(75deg);
+}
+
+.potw_section_title {
+    text-transform: uppercase;
+    font-family: Elena;
+    color: #666;
+    font-size: 22px;
+}
+
+.potw_desc {
+    height: 70%;
+    width: 70%;
+    margin-right: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+.potw_bio {
+    font-family: 'Elena Regular';
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.other_people {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.article_post_row {
+    height: 33.33%;
+    display: flex;
+    flex-direction: row;
+}
+.article_post{
+    width: 50%;
+}
+
+.article_post article {
+    width: 90%;
+    margin: 60px auto;
+    padding: 0 0 0 50px;
+}
+
+.article_post article header {
+    display: flex;
+}
+
+.person_avatar_container {
+    width: 100px;
+    height: 100px;
+    border: 6px solid #ccc;
+    border-radius: 6px;
+    margin: 10px 0 -20px 30px;
+    transform: rotate(75deg);
+
+}
+
+.ap_author_name {
+    margin: 0 0 0 40px;
+    font-size: 24px;
+    color: #666;
+}
+
+.article_post_content_bloc {
+    width: 80%;
+    padding: 0 0 0 170px;
+    margin: -30px 0 0 0;
+}
+
+.article_post_title {
+    padding: 0 0 35px 0;
+    font-size: 37px;
+    color: #333;
+}
+
+.published_date, .article_post_content {
+    font-family: 'Elena Regular';
+    font-size: 22px;
+    line-height: 30px;
+} 
+
+.published_date {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #666;
 }
