@@ -363,3 +363,47 @@
 .posts_line3 .smashing_ad{
     margin: 0 30px 0 0;
 }
+
+.just_released_bloc span{
+    font-family: 'Elena Bold';
+    text-transform: uppercase;
+    padding: 0 5px;
+}
+
+.release_bloc {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #868686;
+    padding: 30px 25% 0;
+    text-align: center;
+}
+.release_title {
+    font-size: 58px;
+    line-height: 4rem;
+}
+.release_desc {
+    font-family: 'Elena Regular';
+    font-size: 22px;
+    line-height: 40px;
+}
+.see_more_button {
+    text-transform: uppercase;
+    border-bottom: 5px solid #666;
+    font-family: Elena;
+    color: #666;
+
+}
+
+.latest_posts_footer {
+    margin: 90px auto;
+}
+
+.release_call_to_action {
+background: darkgrey;
+padding: 20px;
+border-radius: 11px;
+}
