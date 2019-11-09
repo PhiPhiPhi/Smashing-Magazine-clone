@@ -3,7 +3,7 @@
 <p align="center">
   <h3 align="center">Design Teardown</h3>
   <p align="center">
-    This project consists of building a heatmap of the <a href ="https://www.smashingmagazine.com/">Smawhing Magazine's </a> website
+    This project consists of building a heatmap of the <a href ="https://www.smashingmagazine.com/">Smashing Magazine's </a> website
     <br />    
   </p>
 </p>
