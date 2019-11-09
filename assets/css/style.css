@@ -517,3 +517,49 @@ border-radius: 11px;
     font-size: 18px;
     color: #666;
 }
+
+.featured_book {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #868686;
+}
+
+.fb_left {
+    width: 60%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 50px;
+    
+}
+
+.fb_meta {
+    font-family: 'Elena Bold';
+    text-transform: uppercase;
+    height: 10%;
+}
+
+.fb_title {
+    font-size: 60px;
+    height: 25%;
+}
+
+.fb_desc{
+    height: 35%;
+    font-family: 'Elena Regular';
+    font-size: 22px;
+    line-height: 30px;
+
+}
+
+.fb_button{
+    height: 30%;
+    background: darkgrey;
+    padding: 20px;
+    border-radius: 11px;
+    font-size: 30px;
+}
